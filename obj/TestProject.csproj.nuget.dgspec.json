@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/TestProject.csproj": {}
+    "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/TestProject.csproj": {}
   },
   "projects": {
-    "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/TestProject.csproj": {
+    "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/TestProject.csproj",
+        "projectUniqueName": "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/TestProject.csproj",
+        "projectPath": "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/TestProject.csproj",
         "packagesPath": "/Users/morganwinkler/.nuget/packages/",
-        "outputPath": "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/obj/",
+        "outputPath": "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/morganwinkler/.nuget/NuGet/NuGet.Config"

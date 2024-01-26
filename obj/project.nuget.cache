@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AJ1lRlUsdjoe7FAUkVUD3y3L5+ukLlHmZHw3EelpFr3MDIXjkU9DQ7ZLnkVUH2tph8R3mbsqzaF3xagzdz2OEQ==",
+  "dgSpecHash": "CYPSvRUPNRWvpoEnCRgayyfyrmvqcwRVBQiLf78kFRggzfVejJVNRQmofX7EThF3rMY+VQLmhfuRRBGo+Jzm0Q==",
   "success": true,
-  "projectFilePath": "/Users/morganwinkler/CSharp/CsharpProjects/TestProject/TestProject.csproj",
+  "projectFilePath": "/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/TestProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

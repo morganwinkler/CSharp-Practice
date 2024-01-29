@@ -1,25 +1,10 @@
-﻿int employeeLevel = 200;
-string employeeName = "John Smith";
-
-string title = "";
-
-switch (employeeLevel)
+﻿for (int i = 0; i < 10; i++)
 {
-  case 100:
-    title = "Junior Associate";
-    break;
-  case 200:
-    title = "Senior Associate";
-    break;
-  case 300:
-    title = "Manager";
-    break;
-  case 400:
-    title = "Senior Manager";
-    break;
-  default:
-    title = "Associate";
-    break;
+  Console.WriteLine(i);
 }
 
-Console.WriteLine($"{employeeName}, {title}");
+string[] names = { "Alex", "Eddie", "David", "Michael" };
+for (int i = names.Length - 1; i >= 0; i--)
+{
+  Console.WriteLine(names[i]);
+}

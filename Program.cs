@@ -1,8 +1,25 @@
-﻿// Code Challenge: write code to display the result of a coin flip
+﻿int employeeLevel = 200;
+string employeeName = "John Smith";
 
-// Random coin = new Random();
-// int flip = coin.Next(0, 2);
-// Console.WriteLine((flip == 0) ? "heads" : "tails");
+string title = "";
 
-Random coin = new Random();
-Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
+switch (employeeLevel)
+{
+  case 100:
+    title = "Junior Associate";
+    break;
+  case 200:
+    title = "Senior Associate";
+    break;
+  case 300:
+    title = "Manager";
+    break;
+  case 400:
+    title = "Senior Manager";
+    break;
+  default:
+    title = "Associate";
+    break;
+}
+
+Console.WriteLine($"{employeeName}, {title}");

@@ -26,3 +26,4 @@
 /Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/obj/Debug/net8.0/TestProject.pdb
 /Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/obj/Debug/net8.0/ref/TestProject.dll
+/Users/morganwinkler/CSharp/CsharpProjects/CSharp-Practice/obj/Debug/net8.0/TestProject.sourcelink.json

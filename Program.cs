@@ -1,18 +1,29 @@
-﻿// Array code challenge Write code to reverse each word in a message
+﻿// Code Challenge: Data comes in many formats. In this challenge you have to parse the individual "Order IDs", and output the "OrderIDs" sorted and tagged as "Error" if they aren't exactly four characters in length.
 
-string pangram = "The quick brown fox jumps over the lazy dog";
+using System.Collections.Immutable;
 
-// expected output: ehT kciuq nworb xof spmuj revo eht yzal god
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
 
-string[] soloWords;
-soloWords = pangram.Split(" ");
-string[] newSoloWords = new string[soloWords.Length];
-for (int i = 0; i < soloWords.Length; i++)
+// Your code must produce the following output:
+// A345
+// B123
+// B177
+// B179
+// C15     - Error
+// C234
+// C235
+// G3003   - Error
+
+string[] orderIds = orderStream.Split(",");
+Array.Sort(orderIds);
+foreach (string value in orderIds)
 {
-  char[] letters = soloWords[i].ToCharArray();
-  Array.Reverse(letters);
-  newSoloWords[i] = new string(letters);
+  if (value.Length != 4)
+  {
+    Console.WriteLine($"{value} \t -Error");
+  }
+  else
+  {
+    Console.WriteLine(value);
+  }
 }
-
-string result = String.Join(" ", newSoloWords);
-Console.WriteLine(result);
